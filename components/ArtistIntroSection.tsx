@@ -5,7 +5,13 @@ export default function ArtistIntroSection() {
   return (
     <section className="artist-intro-section">
       <div className="artist-intro-image">
-        <Image src="/erin-hanson/artist-at-work.jpg" alt="Alexandrea Roach painting in her studio" fill sizes="(max-width: 800px) 100vw, 42vw" />
+        <Image
+          src="/erin-hanson/artist-at-work.jpg"
+          alt="Alexandrea Roach painting in her studio"
+          width={878}
+          height={1216}
+          sizes="(max-width: 800px) 100vw, 42vw"
+        />
       </div>
       <div>
         <p className="eyebrow">The artist</p>
